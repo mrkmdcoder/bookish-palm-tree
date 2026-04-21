@@ -61,7 +61,7 @@
    - Set up logging to monitor any unauthorized access or anomalies.
 
 ## Critical Issues Checklist
-Before going live with the Fantasy Stats subscription service at $9.99/month or $80/year, ensure the following:
+Before going live with the StatVault subscription service at $9.99/month or $80/year, ensure the following:
 - [ ] All payment processing flows tested thoroughly.
 - [ ] Compliance with Stripe’s requirements.
 - [ ] Compliance with Spotify’s API requirements.

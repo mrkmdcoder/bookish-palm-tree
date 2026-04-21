@@ -1,4 +1,4 @@
-# Fantasy Stats App - Payment Handler
+# StatVault App - Payment Handler
 
 This file contains the complete implementation for the Stripe payment handler that includes subscription management. It handles customer creation, subscription creation, and webhook events.
 

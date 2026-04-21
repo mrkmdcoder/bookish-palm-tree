@@ -1,4 +1,4 @@
-# Legal Compliance Guide for Fantasy Stats Subscription Website
+# Legal Compliance Guide for StatVault Subscription Website
 
 ## Step 1: Business Registration
 1. Choose a business structure (e.g., LLC, Corporation).
