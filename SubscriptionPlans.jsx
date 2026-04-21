@@ -62,8 +62,8 @@ const getAccessState = (accountMode) => {
 const AccessGate = ({ accessState, children }) => {
     if (accessState === 'active') return children;
 
-    const monthlyPriceId = process.env.REACT_APP_STRIPE_MONTHLY_PRICE_ID || 'env:REACT_APP_STRIPE_MONTHLY_PRICE_ID';
-    const yearlyPriceId = process.env.REACT_APP_STRIPE_YEARLY_PRICE_ID || 'env:REACT_APP_STRIPE_YEARLY_PRICE_ID';
+    const monthlyPriceId = process.env.REACT_APP_STRIPE_MONTHLY_PRICE_ID || 'Not configured';
+    const yearlyPriceId = process.env.REACT_APP_STRIPE_YEARLY_PRICE_ID || 'Not configured';
 
     if (accessState === 'logged_out') {
         return (
@@ -117,7 +117,7 @@ const SubscriptionPlans = () => {
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        if (!canvas) return undefined;
+        if (!canvas) return;
 
         const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
         const scene = new THREE.Scene();
@@ -300,7 +300,7 @@ const SubscriptionPlans = () => {
                     <AccessGate accessState={accessState}>
                         <div className="space-y-4">
                             <div>
-                                <h3 className="mb-2 text-lg font-semibold text-orange-200">Daily Quests (refreshes at midnight)</h3>
+                                <h3 className="mb-2 text-lg font-semibold text-orange-200">Daily Quests (refreshes at midnight — timer integration pending)</h3>
                                 <div className="grid gap-3 md:grid-cols-3">
                                     {dailyQuests.map((quest) => (
                                         <div key={quest.title} className="rounded-xl border border-orange-500/40 bg-black/50 p-4">
@@ -314,7 +314,7 @@ const SubscriptionPlans = () => {
                                 </div>
                             </div>
                             <div>
-                                <h3 className="mb-2 text-lg font-semibold text-cyan-200">Weekly Quests (resets every Monday)</h3>
+                                <h3 className="mb-2 text-lg font-semibold text-cyan-200">Weekly Quests (resets every Monday — timer integration pending)</h3>
                                 <div className="grid gap-3 md:grid-cols-2">
                                     {weeklyQuests.map((quest) => (
                                         <div key={quest.title} className="rounded-xl border border-cyan-500/40 bg-black/50 p-4">
