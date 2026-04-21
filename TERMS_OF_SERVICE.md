@@ -1,11 +1,11 @@
-# Terms of Service for Fantasy Stats Subscription Service
+# Terms of Service for StatVault Subscription Service
 
 Effective Date: 2026-04-21
 
-Thank you for choosing Fantasy Stats. Please read these Terms of Service carefully before using our subscription services.
+Thank you for choosing StatVault. Please read these Terms of Service carefully before using our subscription services.
 
 ### 1. Subscription Plans
-We offer two subscription plans for our Fantasy Stats service:
+We offer two subscription plans for our StatVault service:
 - **Monthly Subscription**: $9.99 per month
 - **Yearly Subscription**: $80 per year (which saves you about $40 compared to the monthly plan)
 
@@ -22,6 +22,6 @@ We offer two subscription plans for our Fantasy Stats service:
 - We reserve the right to modify the subscription fees at any time, with notice to the subscribers. Any changes will be communicated via email or through our service.
 
 ### 5. Contact Us
-If you have any questions about these Terms of Service, please contact us at support@fantasystats.com.
+If you have any questions about these Terms of Service, please contact us at support@statvault.com.
 
-Thank you for using Fantasy Stats! Enjoy your subscription!
+Thank you for using StatVault! Enjoy your subscription!
